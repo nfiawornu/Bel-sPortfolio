@@ -1,17 +1,17 @@
  
 import './App.css';
-import {Hero,Services,Portfolio,Resume,Skills,Footer} from './components'
+import {Hero,Services,Portfolio,Skills,Footer} from './components'
 
 function App() {
   return (
-    <div className="App">
+    <main className='px-10'>
       <Hero/>
       <Services/>
       <Portfolio/> 
-      <Resume/>
+      
       <Skills/>
       <Footer/>  
-    </div>
+    </main>
   );
 }
 

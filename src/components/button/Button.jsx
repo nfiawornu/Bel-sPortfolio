@@ -1,10 +1,10 @@
 import React from 'react'
-import './Button.styles.css'
+ 
 
-const Button = ({primary}) => {
+const Button = ({primary,label,onClick}) => {
   return (
-     <button className={primary?'primary-Button':'secondary-Button'}>
-        Button
+     <button onClick={onClick} className={`${primary?'primary':'secondary'} button`}>
+        {label}
      </button>
   )
 }
