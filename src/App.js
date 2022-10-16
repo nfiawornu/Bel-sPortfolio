@@ -1,15 +1,15 @@
  
 import './App.css';
-import {Hero,Services,Portfolio,Skills,Footer} from './components'
+import {Hero,Services,Portfolio,Skills,Certificates,Footer} from './components'
 
 function App() {
   return (
     <main className='px-10'>
       <Hero/>
       <Services/>
-      <Portfolio/> 
-      
+      <Portfolio/>       
       <Skills/>
+      <Certificates/>
       <Footer/>  
     </main>
   );

@@ -6,12 +6,12 @@ import {GiSpinningBlades,GiArtificialIntelligence} from 'react-icons/gi'
 
 const Services = () => {
   return (
-    <div className='my-10' >
+    <div id='services' className='my-10' >
         <div className='flex-col' >
             <p className='text-red-900 text-2xl'>MY SERVICES</p>
             <h3 className='font-medium text-4xl my-5'>What I Do</h3>
         </div>
-        <div className="grid grid-flow-row-dense gap-10 ">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-10 md:flex-row">
             <div className="border-2 px-4 py-2">
                 <div  >
                     <SiAltiumdesigner className='text-4xl my-10 font-bold text-red-900 '/>
