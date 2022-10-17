@@ -3,11 +3,11 @@ import React,{useState} from 'react'
  import {AiOutlineCloseCircle} from 'react-icons/ai'
  import {BsGithub,BsLinkedin,BsWhatsapp} from 'react-icons/bs'
  import {BiMailSend} from 'react-icons/bi';
- import Helper from '../Helper'
+ 
 const Hero = () => {
     const [dropMenu,setDropMenu]=useState(false);
   return (
-    <div id='about' >
+    <div id='about'>
         <nav className='flex items-base justify-between my-10'>
             <ul >
                 <li>Logo</li>
@@ -17,14 +17,14 @@ const Hero = () => {
                 <HiMenuAlt3 onClick={()=>setDropMenu(prev=>!prev)} className={dropMenu?'text-2xl':'hidden'}/>
                 </li>
             </ul>
-            <ul className={dropMenu ? 'hidden sm:flex sm:w-8/12 md:w-6/12 lg:w-5/12 xl:w-4/12 justify-between':'flex flex-col'}>
+            <ul className={dropMenu ? 'hidden sm:flex sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 justify-between items-center':'flex flex-col'}>
                 <AiOutlineCloseCircle onClick={()=>setDropMenu(prev=>!prev)} className={dropMenu ? 'hidden':'text-2xl ml-auto mb-5'}/>
-                <li onClick={()=>Helper('portfolio')}  className='tw-border-solid border-black-900'>
-                    <a href="portfolio">
+                <li className='tw-border-solid border-black-900'>
+                    <a href="#portfolio">
                         Porfolio
                     </a>
                 </li>
-                <li onClick={()=>Helper('about')} className='border-b-5 border-black'>
+                <li className='border-b-5 border-black'>
                     <a href="#about" className='border-b-5 border-black-900'>
                         About
                     </a>
@@ -35,23 +35,28 @@ const Hero = () => {
                     </a>
                 </li>
                 <li >
+                    <a href="#certificates">
+                        Certificates
+                    </a>
+                </li>
+                <li >
                     <a href="#contact">
                         Contact Me
                     </a>
                 </li>
-                <li >
-                    <a href="#cv">
+                <li className='bg-red-900 py-2 px-4 rounded-xl text-white' >
+                    <a href="https://drive.google.com/file/d/1kbP982Jo80laVJcr9I82IVER6AxYtgdc/view?usp=sharing">
                         Download CV
                     </a>
                 </li>
             </ul>
         </nav>
-        <div className='border-b-10 border-black'>
-            <div className='hero-Left col'>
+        <div className='border-b-10 border-black flex flex-col sm:flex-row sm:justify-between sm:items-start'>
+            <div className='sm:w-1/2'>
                 <p className='text-3xl font-extrabold'>Welcome! <b className='text-red-900'>I am</b></p>
                 <h3 className='text-2xl font-bold text-gray-800'> Fiawornu Nobel</h3>
                 <h5 className='text-lg font-medium text-gray-900'>Web Developer | Devops Engineer | ML enthusiast</h5>
-                <p className='leading-8 font-light my-5 text-lg'>Software engineer with a Computer Engineering degree and 2+ years of experience with react.js. Building robust software with an eye for detail that meets clients’ expectations. </p>
+                <p className='leading-8 font-light my-5 text-lg sm:w-1/2'>Software engineer with a Computer Engineering degree and 2+ years of experience with react.js. Building robust software with an eye for detail that meets clients’ expectations. </p>
                 <div >
                     <div>
                         <h4 className='font-medium text-red-800'>FIND ME ON</h4>
@@ -90,8 +95,8 @@ const Hero = () => {
                     </div>
                     </div>
             </div>
-            <div className="w-sm aspect-[4/3] bg-[url('https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxhcHAlMjBiYWNrZ3JvdW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')] bg-center bg-contain">            
-             
+            <div className="flex sm:w-1/2 sm:aspect-[16/30] md:aspect-[16/12]">            
+               <img className='object-cover object-center w-full' src="https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxhcHAlMjBiYWNrZ3JvdW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="my_self" />
             </div>            
         </div>
     </div>
