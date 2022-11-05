@@ -5,12 +5,12 @@ import React,{useState} from 'react'
  import {BiMailSend} from 'react-icons/bi';
  
 const Hero = () => {
-    const [dropMenu,setDropMenu]=useState(false);
+    const [dropMenu,setDropMenu]=useState(true);
   return (
     <div id='about'>
         <nav className='flex items-base justify-between my-10'>
             <ul >
-                <li>Logo</li>
+                <li className='font-extrabold text-sm'>BEL</li>
             </ul>
             <ul>
                 <li className={ dropMenu && 'sm:hidden'}>
@@ -19,32 +19,32 @@ const Hero = () => {
             </ul>
             <ul className={dropMenu ? 'hidden sm:flex sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 justify-between items-center':'flex flex-col'}>
                 <AiOutlineCloseCircle onClick={()=>setDropMenu(prev=>!prev)} className={dropMenu ? 'hidden':'text-2xl ml-auto mb-5'}/>
-                <li className='tw-border-solid border-black-900'>
+                <li className='transition ease-in-out delay-100 hover:-translate-y-1 duration:300 hover:text-red-900 hover:scale-110 hover:font-bold'>
                     <a href="#portfolio">
                         Porfolio
                     </a>
                 </li>
-                <li className='border-b-5 border-black'>
+                <li className='transition ease-in-out delay-100 hover:-translate-y-1 duration:300 hover:text-red-900 hover:scale-110 hover:font-bold'>
                     <a href="#about" className='border-b-5 border-black-900'>
                         About
                     </a>
                 </li>
-                <li >
+                <li className='transition ease-in-out delay-100 hover:-translate-y-1 duration:300 hover:text-red-900 hover:scale-110 hover:font-bold'>
                     <a href="#services">
                         Services
                     </a>
                 </li>
-                <li >
+                <li className='transition ease-in-out delay-100 hover:-translate-y-1 duration:300 hover:text-red-900 hover:scale-110 hover:font-bold' >
                     <a href="#certificates">
                         Certificates
                     </a>
                 </li>
-                <li >
+                <li className='transition ease-in-out delay-100 hover:-translate-y-1 duration:300 hover:text-red-900 hover:scale-110 hover:font-bold' >
                     <a href="#contact">
                         Contact Me
                     </a>
                 </li>
-                <li className='bg-red-900 py-2 px-4 rounded-xl text-white' >
+                <li className='bg-red-900 py-2 px-4 rounded-xl text-white hover:text-red-900 hover:bg-white hover:border-red-900 hover:border-2 hover:font-bold' >
                     <a href="https://drive.google.com/file/d/1kbP982Jo80laVJcr9I82IVER6AxYtgdc/view?usp=sharing">
                         Download CV
                     </a>
@@ -53,10 +53,10 @@ const Hero = () => {
         </nav>
         <div className='border-b-10 border-black flex flex-col sm:flex-row sm:justify-between sm:items-start'>
             <div className='sm:w-1/2'>
-                <p className='text-3xl font-extrabold'>Welcome! <b className='text-red-900'>I am</b></p>
-                <h3 className='text-2xl font-bold text-gray-800'> Fiawornu Nobel</h3>
+                <p className='text-2xl font-bold'>Welcome! <b className='text-red-900'>I am</b></p>
+                <h3 className='text-4xl font-extrabold text-gray-800'> Fiawornu Nobel</h3>
                 <h5 className='text-lg font-medium text-gray-900'>Web Developer | Devops Engineer | ML enthusiast</h5>
-                <p className='leading-8 font-light my-5 text-lg sm:w-1/2'>Software engineer with a Computer Engineering degree and 2+ years of experience with react.js. Building robust software with an eye for detail that meets clients’ expectations. </p>
+                <p className='leading-8 font-light w-1/2 my-5 pr-5 text-lg sm:w-full'>Software engineer with a Computer Engineering degree and 2+ years of experience with react.js. Building robust software with an eye for detail that meets clients’ expectations. </p>
                 <div >
                     <div>
                         <h4 className='font-medium text-red-800'>FIND ME ON</h4>
