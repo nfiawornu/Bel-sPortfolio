@@ -45,7 +45,7 @@ const Hero = () => {
                     </a>
                 </li>
                 <li className='bg-red-900 py-2 px-4 rounded-xl text-white hover:text-red-900 hover:bg-white hover:border-red-900 hover:border-2 hover:font-bold' >
-                    <a href="https://drive.google.com/file/d/1kbP982Jo80laVJcr9I82IVER6AxYtgdc/view?usp=sharing">
+                    <a href="https://drive.google.com/file/d/1A-fQLdHy3GcN1kVSiX_zIgdpLVp8So6T/view?usp=share_link">
                         Download CV
                     </a>
                 </li>
