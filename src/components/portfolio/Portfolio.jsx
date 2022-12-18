@@ -14,7 +14,7 @@ const Portfolio = () => {
         {
             portfolioItems.map((portfolioItem,index) => {
               return (
-              <div key={index} style={{backgroundImage:`url(${portfolioItem.portfolioImageUrl})`}} className="flex items-end justify-center shadow-md max-w-sm sm:w-2/5 md:2/5 aspect-[4/3] bg-center bg-cover">
+              <div key={index} style={{backgroundImage:`url(${portfolioItem.portfolioImageUrl})`}} className="flex items-end justify-center shadow-md max-w-sm sm:w-2/5 md:2/5 aspect-[4/3] bg-center bg-cover hover:shadow-xl hover:scale-105">
               <div className='text-white mb-5 px-10'>
                 <span className='flex px-4 py-2 opacity-80 rounded-lg mb-2 bg-slate-900'>
                 <BsGithub className='text-2xl mr-5'/>

@@ -18,12 +18,18 @@ const Skills = () => {
           </div>
           <div className='flex flex-col w-full md:w-1/2'>
           <h5 className='font-medium text-2xl text-slate-900 my-5'>Devops</h5>
-          <div class="m-1 h-5 bg-gradient-to-r text-white w-8/12 rounded-md font-bold text-center from-cyan-500 to-blue-500">AWS 80%</div>
-            <div class="m-1 h-5 bg-gradient-to-r text-white w-4/5 rounded-md font-bold text-center from-sky-500 to-indigo-500">CIRCLE-CI 80%</div>
-            <div class="m-1 h-5 bg-gradient-to-r text-white w-8/12 rounded-md font-bold text-center from-violet-500 to-fuchsia-500">DOCKER 70%</div>
+          <div class="m-1 h-5 bg-gradient-to-r text-white w-11/12 rounded-md font-bold text-center from-cyan-500 to-blue-500">AWS 90%</div>
+          <div class="m-1 h-5 bg-gradient-to-r text-white w-11/12 rounded-md font-bold text-center from-sky-500 to-indigo-500">JENKINS 90%</div>
+          <div class="m-1 h-5 bg-gradient-to-r text-white w-11/12 rounded-md font-bold text-center from-violet-500 to-fuchsia-500">GIT 90%</div>
+          <div class="m-1 h-5 bg-gradient-to-r text-white w-4/5 rounded-md font-bold text-center from-purple-500 to-pink-500">MAVEN 80%</div>
+          <div class="m-1 h-5 bg-gradient-to-r text-white w-11/12 rounded-md font-bold text-center from-violet-500 to-fuchsia-500">JFROG ARTIFACTORY 90%</div>
+          <div class="m-1 h-5 bg-gradient-to-r text-white w-4/5 rounded-md font-bold text-center from-sky-500 to-indigo-500">TERRAFORM 80%</div>
+            <div class="m-1 h-5 bg-gradient-to-r text-white w-4/5 rounded-md font-bold text-center from-cyan-500 to-indigo-500">CIRCLE-CI 80%</div>
+            <div class="m-1 h-5 bg-gradient-to-r text-white w-11/12 rounded-md font-bold text-center from-violet-500 to-fuchsia-500">DOCKER 90%</div>
             <div class="m-1 h-5 bg-gradient-to-r text-white w-7/12 rounded-md font-bold text-center from-purple-500 to-pink-500">KUBERNETES 60%</div> 
             <div class="m-1 h-5 bg-gradient-to-r text-white w-11/12 rounded-md font-bold text-center from-violet-500 to-fuchsia-500">PYTHON 90%</div>
-            <div class="m-1 h-5 bg-gradient-to-r text-white w-6/12 rounded-md font-bold text-center from-purple-500 to-pink-500">BASH 60%</div> 
+            <div class="m-1 h-5 bg-gradient-to-r text-white w-4/5 rounded-md font-bold text-center from-cyan-500 to-blue-500">GROOVY 80%</div>
+            <div class="m-1 h-5 bg-gradient-to-r text-white w-4/5 rounded-md font-bold text-center from-purple-500 to-pink-500">BASH 80%</div> 
             <div class="m-1 h-5 bg-gradient-to-r text-white w-7/12 rounded-md font-bold text-center from-violet-500 to-fuchsia-500">CLOUD FORMATION 60%</div>
           
          </div>     
