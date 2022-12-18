@@ -55,8 +55,9 @@ const Hero = () => {
             <div className='sm:w-1/2'>
                 <p className='text-2xl font-bold'>Welcome! <b className='text-red-900'>I am</b></p>
                 <h3 className='text-4xl font-extrabold text-gray-800'> Fiawornu Nobel</h3>
-                <h5 className='text-lg font-medium text-gray-900'>Web Developer | Devops Engineer | ML enthusiast</h5>
-                <p className='leading-8 font-light w-1/2 my-5 pr-5 text-lg sm:w-full'>Software engineer with a Computer Engineering degree and 2+ years of experience with react.js. Building robust software with an eye for detail that meets clients’ expectations. </p>
+                <h5 className='text-lg font-medium text-gray-900'> SWE | Devops Engineer | ML enthusiast</h5>
+                <p className='leading-8 font-light w-1/2 my-5 pr-5 text-lg sm:w-full'>
+                    Devops engineer with a tonne of experience with Devops tools and technologies for building efficient, automated and robust continuous deployment pipelines with an eye for detail to discover pipeline bottlenecks in order to engineer a faster software development lifecycle. </p>
                 <div >
                     <div>
                         <h4 className='font-medium text-red-800'>FIND ME ON</h4>
@@ -96,7 +97,7 @@ const Hero = () => {
                     </div>
             </div>
             <div className="flex sm:w-1/2 sm:aspect-[16/30] md:aspect-[16/12]">            
-               <img className='object-cover object-center w-full' src="https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxhcHAlMjBiYWNrZ3JvdW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="my_self" />
+               <img className='object-cover object-center w-full' src="https://drive.google.com/uc?export=view&id=1EQHXCs88QbIoCGXe_PblhQN_ssN7Cdey" alt="my_self" />
             </div>            
         </div>
     </div>
