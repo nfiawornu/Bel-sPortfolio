@@ -15,9 +15,9 @@ const Certificates = () => {
          certificatesDataItems.map((certificate,index)=>
          {
           return (
-            <div key={index} style={{backgroundImage:`url(${certificate.certificateBackground})`}} className="flex items-end justify-center shadow-md max-w-sm sm:w-2/5 md:2/5 aspect-[4/3] bg-no-repeat bg-[length:200px] bg-center">
+            <div key={index} style={{backgroundImage:`url(${certificate.certificateBackground})`}} className="group flex items-end justify-center border max-w-sm sm:w-2/5 md:2/5 aspect-[4/3] bg-no-repeat bg-[length:200px] bg-center hover:shadow-md">
             <a href={certificate.certificateUrl} className='text-white mb-5'>
-              <span className='flex px-4 py-2 opacity-50 bg-slate-900 rounded-lg mb-2 border-2'>
+              <span className='flex px-4 py-2 opacity-50 bg-slate-900 rounded-lg mb-2 border-2 group-hover:bg-red-900 group-hover:opacity-100 group-hover:scale-110'>
                 <TbCertificate className='text-2xl text-white mr-5'/>
                 <p className='font-medium text-sm'>View Certificate</p>
               </span>             
