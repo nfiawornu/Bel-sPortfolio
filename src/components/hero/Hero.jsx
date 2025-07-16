@@ -60,14 +60,12 @@ const Hero = () => {
                 <p className='leading-8 font-light w-1/2 my-5 pr-5 text-lg sm:w-full'>
                   I am a problem-solving-driven DevOps Engineer with deep hands-on experience in modern DevOps tools and cloud-native technologies.
                   I specialize in building automated, scalable, and resilient CI/CD pipelines that enable faster, safer, and more reliable deployments.
-                   <br /><br />
-                  With a sharp eye for system performance bottlenecks, I engineer solutions that:
-                   <br /><br />
+                   <br />
+                  With a sharp eye for system performance bottlenecks, I engineer solutions that:<br />
                    ⚡ Accelerate release cycles <br />
                    📈 Enhance infrastructure scalability <br />
                    🔐 Uphold security and reliability best practices
-                   <br /><br />
-
+                   <br />
                   Whether it's optimizing deployment workflows or ensuring rock-solid uptime, I bring a balance of speed, precision, and security to every environment I touch.
                 </p>
                 <div >
